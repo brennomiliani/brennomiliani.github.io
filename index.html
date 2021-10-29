@@ -1,40 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Web de Brenno Miliani</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: verdana, arial, helvetica;
+            background-color: #F4F4F9
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #000000;
+            line-height: 25px;
+
+        }
+
+        .fonteDiferente {
+            font-family: 'Zen Antique', serif;
+        }
+
+        .verdinho {
+            color: #04724D;
+        }
+
+        .picture {
+            border-radius: 45%;
+        }
+
+        .button {
+            color: #000000;
+            background-color: #B8DBD9;
+            padding: 20px 10px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+    </style>
 </head>
+
 <body>
     <ul>
         <li> <a href="#pricipais"> Principais Habilidades </a> </li>
         <li> <a href="#outras"> Outras Habilidades </a> </li>
     </ul>
-    <h1>Brenno Miliani</h1>
-    <img src="Imagens/fotoBrenno.jpeg" alt="foto de Brenno Miliani" width="200px">
-    <p>
-    Estudante brasileiro de desenvolvimento web pela <strong> Trybe </strong>, formado em Análise e Desenvolvimento de Sistemas pela Fatec Antonio Russo, Cursando Ciências Econômicas pela UNIP. atualmente morando em São Caetano do Sul/SP.  
+    <h1 class="fonteDiferente , verdinho">Brenno Miliani</h1>
+    <img src="Imagens/fotoBrenno.jpeg" alt="foto de Brenno Miliani" class="picture" width="300px">
+    <p class="fonteDiferente">
+        Estudante brasileiro de desenvolvimento web pela <strong class="verdinho"> Trybe </strong>, formado em Análise e
+        Desenvolvimento
+        de Sistemas.
+        <br>
+        Resido em <span class="verdinho"> São Caetano do Sul /SP. </span>
     </p>
     <p>
-    <a href="https://github.com/brennomiliani" target="_blank">GitHub</a>
+        <a class="button" href="https://github.com/brennomiliani" target="_blank">GitHub</a>
+        <a class="button" href="www.linkedin.com/in/brenno-miliani-29b2b9194/" target="_blank">LinkedIn</a>
     </p>
-    <a href="https://www.linkedin.com/in/brenno-miliani-29b2b9194/" target="_blank">LinkedIn</a>
+
 
     <h4 id="pricipais">Habilidades que mais me orgulho:</h4>
-    <ul>
+    <ul class="list-style">
         <li> Git </li>
         <li> Html </li>
         <li> Javascript </li>
     </ul>
     <h4 id="outras">Outras habilidades</h4>
-    <ul>
+    <ul class="list-style">
         <li>empenho</li>
         <li>colaboração</li>
         <li>empatia</li>
         <li>comprometimento</li>
     </ul>
 
-        
+
 </body>
+
 </html>
